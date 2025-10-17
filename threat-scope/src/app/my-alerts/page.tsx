@@ -5,8 +5,8 @@ import { useAuth } from '@/lib/auth/AuthContext';
 import { useRouter } from 'next/navigation';
 import { Alert } from '@/lib/api/types';
 import { alertsService } from '@/lib/api/alerts';
-import Header from '../Components/Header/page';
-import AlertCard from '../Components/AlertCard/page';
+import Header from '../../components/Header/page';
+import AlertCard from '../../components/AlertCard/page';
 
 export default function MyAlertsPage() {
   const { user, isAuthenticated } = useAuth();

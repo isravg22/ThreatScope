@@ -1,8 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Header from "../Components/Header/page";
-import SourceCard from "../Components/SourceCard/page";
+import Header from "../../components/Header/page";
+import SourceCard from "../../components/SourceCard/page";
 import { sourcesService } from '@/lib/api/sources';
 import { statsService } from '@/lib/api/stats';
 import { Source } from '@/lib/api/types';

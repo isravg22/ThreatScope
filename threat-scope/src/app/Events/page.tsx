@@ -1,9 +1,9 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Header from "../Components/Header/page";
-import ThreatCard from "../Components/ThreatCard/page";
-import ThreatFiltersComponent from "../Components/ThreatFilters/page";
+import Header from "../../components/Header/page";
+import ThreatCard from "../../components/ThreatCard/page";
+import ThreatFiltersComponent from "../../components/ThreatFilters/page";
 import { threatsService } from '@/lib/api/threats';
 import { Threat, ThreatFilters } from '@/lib/api/types';
 

@@ -1,6 +1,6 @@
 'use client';
 
-import Header from "../Components/Header/page";
+import Header from "../../components/Header/page";
 
 export default function About() {
   return (

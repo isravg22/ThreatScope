@@ -1,8 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Header from "../Components/Header/page";
-import ThreatTypeCard from "../Components/ThreatTypeCard/page";
+import Header from "../../components/Header/page";
+import ThreatTypeCard from "../../components/ThreatTypeCard/page";
 import { statsService } from '@/lib/api/stats';
 
 interface ThreatTypeStat {
