@@ -24,7 +24,7 @@ import { StatsModule } from './modulos/stats/stats.module';
         password: process.env.DB_PASS || 'postgres',
         database: process.env.DB_NAME || 'threatscope',
         autoLoadEntities: true,
-        synchronize: process.env.NODE_ENV !== 'production',
+        synchronize: true,
       }),
     }),
     UsersModule,
